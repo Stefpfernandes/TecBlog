@@ -1,6 +1,9 @@
 # TecBlog
 ### Site estilo Blog - Curso da Udemy 
 
+## Caso queira ver na WEB
+https://stefpfernandes.github.io/TecBlog/
+
 Não esta responsível!
 
 --------------------------------------------
