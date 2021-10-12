@@ -1,0 +1,161 @@
+/*LIMPAR AS FORMATAÇÕES PADRÕES*/
+/*O (*) CHAMA TUDO*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+/*
+----------- LAYOUT --------------
+*/
+
+#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+#area-postagens{
+    width: 660px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+/*
+----------- FORMATAÇÃO MENU --------------
+*/
+a{
+    text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: white;
+    padding: 8px 12px;
+    transition: all ease 0.5s;
+}
+
+#area-cabecalho a:hover{
+    color: #f7b600;
+    border-radius: 4px;
+    background: white;
+    padding: 10px 14px;
+}
+
+/*
+----------- FORMATAÇÃO POSTAGENS --------------
+*/
+
+a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover{
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    background: #f7b600;
+}
+
+/*
+----------- FORMATAÇÃO LATERAL --------------
+*/
+
+#categoria-lateral a:link, #categoria-lateral a:visited {
+    color: #f7b600;
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+#categoria-lateral a:hover{
+    color: #ccc;
+    padding: 5px;
+    background: none;
+}
+
+/*
+----------- FORMATAÇÃO GERAL --------------
+*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    background: #f7b600;
+    padding: 5px;
+    margin-bottom: 9px;
+}
+
+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+hr{
+    margin-top: 10px;
+}
+
+
+.branco{
+    color: white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
